@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="w-full min-h-[30vh] flex flex-row items-center justify-between px-12 bg-black">
-      <h1 className="text-5xl  text-white font-semibold tracking-wider">
+      <h1 className="text-5xl  text-white font-museo tracking-wider">
         Yolo
       </h1>
       <div className="w-[25%] h-full flex flex-row items-start justify-between ">

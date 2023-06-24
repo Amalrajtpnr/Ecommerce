@@ -17,7 +17,7 @@ export default function Home() {
       <div className="w-[100%] min-h-[85%]   flex flex-col items-center justify-start  relative ">
         <div className="w-full h-[90%]   bg-black">
           <div className="w-[50%] h-full flex flex-col items-start justify-center px-[120px] ml-16">
-            <h1 className="text-[65px]  text-white font-semibold tracking-wider">
+            <h1 className="text-[65px] text-white font-museo tracking-wider">
               Fashion Up Your Looks
             </h1>
             <h1 className="text-[15px]  text-white font-light tracking-wider">

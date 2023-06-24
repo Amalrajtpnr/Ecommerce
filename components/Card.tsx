@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 function Card() {
+  const router=useRouter()
   return (
-    <div className="w-[260px] h-[485px] flex flex-col items-start justify-start ">
+    <div onClick={()=>router.push("/productDetails")} className="w-[260px] h-[485px] flex flex-col items-start justify-start ">
       <Image
         width={150}
         height={120}
